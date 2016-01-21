@@ -1,0 +1,28 @@
+body{
+	font-family:arial;
+}
+#controls{
+  position:fixed;
+  right:10px;
+}
+#transactions tr:nth-child(2n+1) td{
+  background-color:#DDFFDD;
+}
+.num{
+  text-align:right;
+  width:10ex;
+}
+tr.picked td{
+  font-weight:bold;
+}
+#transactions tr.picked td:first-child{
+  background-color:gray;
+  color:white;
+}
+#transactions{
+  float:left;
+}
+td,th{
+  font-size:x-small;
+  text-align:left;
+}
